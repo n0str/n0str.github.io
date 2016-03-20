@@ -30,6 +30,36 @@ body {
     margin-left: 25px;
 }
 
+.content {
+    width: 90%;
+    margin: auto;
+}
+
+.description {
+    height: 80px;
+}
+
+.publication {
+}
+
+.group {
+    border-top: 1px solid rgba(200, 200, 200, 0.35);//#d2dde5;
+    position: relative;
+}
+
+.group::before {
+    display: block;
+    content: attr(data-year);
+    position: absolute;
+    left: 97px;
+    top: -14px;
+    padding: 3px 15px;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    font-size: 18;
+    background-image: url("bg.png");
+}
+
 #container {
     position: absolute;
     left: 50%;
@@ -44,6 +74,7 @@ h1 {
     font-weight: 300;
 }
 
+.clearer { clear: both; }
 
 .description img {
     text-align: right;
