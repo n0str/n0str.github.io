@@ -6,15 +6,10 @@ body {
 }
 
 #container {
-    margin: 0 auto;
-    padding: 10px;
-    
     position: absolute;
     left: 50%;
     top: 50%;
-
     margin: -100px 0 0 -500px;
-
     text-align: center;
     font-weight: 200;
 }
@@ -22,8 +17,6 @@ body {
 h1 {
     color: #ffffff;
     font-weight: 300;
-    margin: 0 20px 10px 0;
-    padding: 0px 5px 5px 10px;
 }
 
 
