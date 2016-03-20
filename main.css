@@ -5,6 +5,31 @@ body {
     color: #ffffff;
 }
 
+.navbar {
+    display: block;
+    float: right;
+    margin-right: 32px;
+}
+
+.nav {
+    list-style: none;
+    float: left;
+}
+
+.navbar .nav > li {
+    float: left;
+    font-size: 16px;
+}
+
+.navbar .nav a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navbar .nav li:not(:first-child) {
+    margin-left: 25px;
+}
+
 #container {
     position: absolute;
     left: 50%;
