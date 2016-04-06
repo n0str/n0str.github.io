@@ -10,7 +10,6 @@ body {
     float: right;
 }
 
-@media(min-width:34em){.spacer { height: 8%;}}
 @media(min-width:48em){.spacer { height: 12%;}}
 @media(min-width:62em){.spacer { height: 18%;}}
 @media(min-width:75em){.spacer { height: 25%;}}
