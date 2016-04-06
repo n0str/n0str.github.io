@@ -5,29 +5,25 @@ body {
     color: #ffffff;
 }
 
-.navbar {
-    display: block;
-    float: right;
-    margin-right: 32px;
-}
-
 .nav {
     list-style: none;
-    float: left;
+    float: right;
 }
 
-.navbar .nav > li {
+@media(min-width:34em){.spacer { height: 8%;}}
+@media(min-width:48em){.spacer { height: 12%;}}
+@media(min-width:62em){.spacer { height: 18%;}}
+@media(min-width:75em){.spacer { height: 25%;}}
+
+.nav > li {
     float: left;
     font-size: 16px;
+	margin-right: 32px;
 }
 
-.navbar .nav a {
+.nav a {
     color: #fff;
     text-decoration: underline;
-}
-
-.navbar .nav li:not(:first-child) {
-    margin-left: 25px;
 }
 
 .content {
@@ -58,15 +54,6 @@ body {
     letter-spacing: 1px;
     font-size: 18;
     background-image: url("bg.png");
-}
-
-#container {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    margin: -100px 0 0 -500px;
-    text-align: center;
-    font-weight: 200;
 }
 
 h1 {

@@ -3,36 +3,46 @@
     <title>Main page</title>
     <link rel="stylesheet" href="main.css">
     <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="flexboxgrid.min.css" type="text/css">
 </head>
 
 <body>
 
-    <div class="navbar">
-        <ul class="nav">
-            <li><a>Projects</a></li>
-            <li><a>Publications</a></li>
-            <li><a>Contacts</a></li>
-        </ul>
-    </div>
+	<div class="row end-xs">
+		<div class="col-xs-3">
+			<ul class="nav">
+			    <li><a>Projects</a></li>
+			    <li><a>Publications</a></li>
+			    <li><a>Contacts</a></li>
+			</ul>
+		</div>
+	</div>
 
-    <div id="container">
+	<div class="row spacer"></div>
 
-        <h1>Александр Менщиков</h1>
+	<div class="row center-xs">
+		<div class="col-xs-6">
+		    <div class="box">
+		        <h1>Александр Менщиков</h1>
 
-        <div>Аспирант Санкт-Петербургского национального исследовательского университета информационных технологий, механики и оптики</div>
+				<div>Аспирант Санкт-Петербургского национального исследовательского университета информационных технологий, механики и оптики</div>
 
-        <br/>
-        <a href="mailto:spb.menshikov@gmail.com">spb.menshikov@gmail.com</a>
-        <br/><br/>
+				<br/>
+				<a href="mailto:spb.menshikov@gmail.com">spb.menshikov@gmail.com</a>
+				<br/><br/>
 
-        <div class="social">
-            <a href="https://vk.com/dsnostr" target="_blank"><img width="32" height="32" src="vk_white.png"></a>&nbsp;&nbsp;
-            <a href="https://github.com/n0str" target="_blank"><img id="github" width="64" height="32" src="github.png"></a>&nbsp;&nbsp;
-            <a href="https://keybase.io/nostr" target="_blank"><img id="keybase" width="32" height="32" src="keybase.png"></a>
-            <div class="circular"></div>
-        </div>
+				<div class="social">
+				    <a href="https://vk.com/dsnostr" target="_blank"><img width="32" height="32" src="vk_white.png"></a>&nbsp;&nbsp;
+				    <a href="https://github.com/n0str" target="_blank"><img id="github" width="64" height="32" src="github.png"></a>&nbsp;&nbsp;
+				    <a href="https://keybase.io/nostr" target="_blank"><img id="keybase" width="32" height="32" src="keybase.png"></a>
+				    <div class="circular"></div>
+				</div>
+		    </div>
+		</div>
+	</div>
 
-    </div>
+	
 
 </body>
 
