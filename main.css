@@ -62,13 +62,10 @@ h1 {
 
 .clearer { clear: both; }
 
-.description img {
-    text-align: right;
-}
 
 a {
     text-decoration: none;
-    color: #177A93;
+    color: #96C0CF;
     cursor: pointer;
 }
 
@@ -77,16 +74,16 @@ a:hover {
     color: #CCC;
 }
 
-.social > a > * {
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
+.social-icons {
+    font-size: 24pt;
+    margin-top: 16px;
 }
 
-#github {
-    background-color: white;
+.social-icons a {
+    color: #fff;
+    padding-right: 14px;
 }
 
-#keybase {
-    background-color: white;
+.box div {
+    line-height: 2em;
 }
